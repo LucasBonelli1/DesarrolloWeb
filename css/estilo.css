@@ -1,0 +1,113 @@
+/* Tipografia */
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@700;800;900&family=Kanit:ital,wght@0,200;0,300;1,400&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(43, 45, 66);
+}
+
+/* header */
+header {
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: black;
+  font-family: "Jost", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo {
+  width: 300px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.ftDeInicio {
+  width: 300px;
+}
+
+.quienesSomos {
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px 0px;
+  color: white;
+}
+/* footer */
+footer {
+  font-family: "Jost", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background: black;
+}
+
+.Copyright {
+  color: white;
+}
+
+.lorem {
+  color: white;
+}
+
+/* Productos */
+
+.card-cuerpo {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productos-div {
+  display: flex;
+  justify-content: center;
+}
+
+.card-contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.card-contenido p {
+  text-align: center;
+}
+.nuestros-productos {
+    display: flex;
+    justify-content: center;
+}
+
+.main-bg {
+  background-color: rgb(43, 45, 66);
+}
+  
+.header-hv a {
+  color: rgb(124, 170, 240);
+}
+
+.header-hv a:hover {
+  color: rgb(0, 68, 255);
+  transition: 1s;
+}
