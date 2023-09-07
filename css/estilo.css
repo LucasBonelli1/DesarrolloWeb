@@ -9,31 +9,31 @@
 
 body {
   background: rgb(43, 45, 66);
+  font-family: sans-serif;
 }
 
 /* header */
+
 header {
-  border-bottom: 1px solid black;
-  text-align: center;
-  padding: 5px 10px;
-  background-color: black;
-  font-family: "Jost", sans-serif;
-  font-family: "Kanit", sans-serif;
-  font-family: "Roboto", sans-serif;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: black;
 }
 
 .Logo {
+  align-items: center;
+  display: flex;
   width: 300px;
+  height: 100%;
 }
 
 nav ul li {
   list-style: none;
   display: inline-block;
   margin: 0 10px;
+  justify-content: space-between;
 }
 
 nav a {
@@ -42,6 +42,28 @@ nav a {
   text-transform: uppercase;
 }
 
+.header-hv a {
+  display: flex;
+  color: white;
+}
+
+.header-hv a:hover {
+  color: rgb(43, 45, 66);
+  transition: 1s;
+}
+
+@media (max-width:760px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    padding: 10px;
+  }
+
+}
+
+/* MAIN  */
 .ftDeInicio {
   width: 300px;
 }
@@ -52,6 +74,7 @@ nav a {
   margin: 20px 0px;
   color: white;
 }
+
 /* footer */
 footer {
   font-family: "Jost", sans-serif;
@@ -66,10 +89,11 @@ footer {
 
 .lorem {
   color: white;
+  padding: 10px;
 }
 
 /* Productos */
-
+/* 
 .card-cuerpo {
   margin: 20px;
   display: flex;
@@ -94,20 +118,24 @@ footer {
 .card-contenido p {
   text-align: center;
 }
-.nuestros-productos {
-    display: flex;
-    justify-content: center;
-}
 
+.nuestros-productos {
+  display: flex;
+  justify-content: center;
+}
+*/
 .main-bg {
   background-color: rgb(43, 45, 66);
 }
-  
-.header-hv a {
-  color: rgb(124, 170, 240);
+
+.nuestros-productos{
+  text-align: center;
+  color: rgb(216, 216, 152);
+  background-color: red;
+  border: solid 1px black;
 }
 
-.header-hv a:hover {
-  color: rgb(0, 68, 255);
-  transition: 1s;
-}
+ .productos-div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+ }
