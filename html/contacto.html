@@ -1,65 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DetailShop</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="../css/estilo.css" />
-  </head>
 
-  <body>
-    <header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DetailShop</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/estilo.css" />
+</head>
 
-      <div>
-        <img class="Logo" src="../img/Logo (2).png" alt="portada" />
+<body>
+  <header>
+    <div>
+      <a href="../index.html"><img class="Logo" src="../img/logo2.jpg" alt="portada" /></a>
+    </div>
+
+    <nav>
+      <ul class="header-hv">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="productos.html">Producto</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="Servicios.html">Servicios</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <h2 class="h2Contacto">Contactanos</h2>
+
+    <form>
+      <label for="nobre">Nombre</label>
+      <input type="text" id="Nombre" />
+
+      <label for="apellido">Apellido</label>
+      <input type="text" id="apellido" />
+
+      <label for="mail">Mail</label>
+      <input type="text" id="mail" />
+
+      <label for="mensaje">Mensaje</label>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Dejanos tu mensaje...">
+        </textarea>
+      <input class="btnContacto" type="submit" />
+    </form>
+  </main>
+
+  <footer>
+    <div class="footerContenido">
+      <div class="infoContenido">
+        <h4>Contacto</h4>
+        <p><i class="fas fa-map-marker-alt"></i>Direccion: Eugenio de Burzaco 455, B1852 Burzaco, Buenos Aires</p>
+        <p><i class="fas fa-phone"></i>Telefono: +54 9 1142325632</p>
+        <p><i class="fas fa-envelope"></i> Email: detailshop@gmail.com</p>
+      </div>
+      <div class="redesSociales">
+        <h4>Redes Sociales</h4>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
       </div>
 
-      <nav>
-        <ul class="header-hv">
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="productos.html">Producto</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="Servicios.html">Servicios</a></li>
-        </ul>
-      </nav>
-    </header>
+    </div>
+  </footer>
 
-    <main>
-      <h2>Contactanos!</h2>
+  <script src="https://kit.fontawesome.com/ac484d389e.js" crossorigin="anonymous"></script>
+</body>
+</body>
 
-      <form>
-        <label for="nobre">Nombre</label>
-        <input type="text" id="Nombre" />
-
-        <label for="apellido">Apellido</label>
-        <input type="text" id="apellido" />
-
-        <label for="mail">Mail</label>
-        <input type="email" id="mail" />
-
-        <label for="mensaje">Mensaje</label>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Dejanos tu mensaje..."
-        ></textarea>
-        <input type="submit" />
-      </form>
-    </main>
-
-    <footer>
-      <ul>
-        <li><a href="https://www.instagram.com/leds.bz/">Instagram</a></li>
-        <li>
-          <a href="https://www.facebook.com/lucas.bonelli.m/">Facebook</a>
-        </li>
-        <li><a href="https://wa.me/1128874249">Whatsapp</a></li>
-
-        <p class="Copyright">© 2023 Copyright: lucasbonelli.coderhouse.com</p>
-      </ul>
-    </footer>
-  </body>
 </html>
