@@ -1,0 +1,47 @@
+/* Productos */
+ /*
+.card-cuerpo {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productos-div {
+  display: flex;
+  justify-content: center;
+}
+
+.card-contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.card-contenido p {
+  text-align: center;
+}
+
+.nuestros-productos {
+  display: flex;
+  justify-content: center;
+}
+*/
+.main-bg {
+    background-color: rgb(43, 45, 66);
+}
+
+.nuestros-productos {
+    text-align: center;
+    color: rgb(216, 216, 152);
+    background-color: rgb(185, 77, 77);
+    border: solid 1px black;
+}
+
+.productos-div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+} 

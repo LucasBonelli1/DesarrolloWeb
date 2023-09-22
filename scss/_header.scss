@@ -1,0 +1,42 @@
+/* header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1B1A1B;
+  }
+  
+  .Logo {
+    align-items: center;
+    display: flex;
+    width: 150px;
+    height: 100%;
+  }
+  
+  nav {
+    ul li {
+      list-style: none;
+      display: inline-block;
+      margin: 0 10px;
+      justify-content: space-between;
+    }
+  
+    a {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+  
+  .header-hv a {
+    display: flex;
+    color: white;
+  
+    &:hover {
+      color: rgb(209, 192, 113);
+      transition: 1s;
+    }
+  }
+  

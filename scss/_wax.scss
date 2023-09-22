@@ -1,0 +1,95 @@
+/* html Wax */
+
+.title-productos {
+    text-align: center;
+    color: black;
+    background-color: rgb(253, 141, 197);
+    padding: auto;
+}
+
+.img-del-producto-wax {
+    max-width: 100%;
+    width: 300px;
+}
+
+.container-titulo {
+    padding: 0;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.products-Wax {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.container-img {
+    flex: auto;
+}
+
+.container-info-productos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.letras-wax {
+    max-width: 200px;
+}
+
+.container-price {
+    padding-bottom: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+    span {
+        font-size: 30px;
+    }
+}
+
+.añadir-al-carrito {
+    display: flex;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+.input-quantity {
+    background-color: rgb(43, 45, 66);
+    border: none;
+    padding: 10px;
+    width: 60px;
+    height: 100%;
+    color: rgb(209, 192, 113);
+    font-weight: 500;
+    line-height: 0;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.btn-comprar {
+    border: none;
+    background-color: rgb(209, 192, 113);
+    padding: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px;
+
+    &:hover {
+        color: #fff;
+        background-color: #333;
+    }
+}
+
+.descripcion {
+    color: #fff;
+    padding-bottom: 40px;
+}

@@ -1,0 +1,43 @@
+/* Contactos */
+
+form {
+    margin-top: 20px;
+    padding: 10px;
+    width: 85%;
+}
+
+input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.btnContacto {
+    background-color: rgb(27, 38, 59);
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.h2Contacto {
+    color: rgb(209, 192, 113);
+    text-align: center;
+    background-color: rgb(27, 38, 59);
+    border-bottom: 1px solid white;
+}
