@@ -98,6 +98,18 @@ nav a {
   grid-template-columns: auto auto auto;
 }
 
+.card-img-top {
+  max-width: 300px;
+}
+
+.col {
+  max-width: 50px;
+}
+
+.main-body  {
+  background: rgb(43, 45, 66);
+}
+
 /* footer */
 footer {
   background-color: #333;
